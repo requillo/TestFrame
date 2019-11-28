@@ -1,0 +1,36 @@
+.error { border: 1px solid red; }
+.tab { display: none; }
+.tab.active-tab { display: block; }
+.list_nav ul { padding: 0; margin: 0; list-style: none;}
+.list_nav li { display: inline-block; padding: 5px; background: #cdcdcd; cursor:pointer; border: 1px solid #cdcdcd; }
+.list_nav li.active { background: #999898; border: 1px solid #999898; }
+.list_nav li.error {border: 1px solid red !important;}
+.sel-max { max-width: 250px; display: inline-block; }
+.line-top { padding: 10px; border-top: 1px solid #cdcdcd; margin-top: 10px; }
+.h-title { display: inline-block; padding: 0 10px; font-size: 1.3em;}
+.the-title { padding:0 0 10px; font-size: 1.6em; border-bottom: 1px solid #cdcdcd; text-align: center; }
+.tb-h { font-size: 1.3em; font-weight: bold; }
+.intake-extra { margin:0 25px; border-top: 1px solid #ddd; }
+.intake-extra > div { padding:3px 0px; }
+.intake-footer {margin:0 15px;}
+.cuttext {
+    white-space: nowrap;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: inherit;
+}
+.table-none-list {}
+.errordate .ui-widget.ui-widget-content {border: 1px solid red !important;}
+.small-print { font-size: .8em; color: #ddd; }
+div.ui-datepicker{
+ font-size:30px;
+}
+.ch-print-img { max-width:47%; max-height: 350px; float:left; vertical-align: top; margin:0 1% 1% 0; width: auto; height: auto; }
+@media print
+{ 
+    .tb-h { font-size: 1.3em; font-weight: bold; color:#cdcdcd !important; }
+    .intake-footer { position: fixed; bottom: 10px; left: 10px; right: 0px }
+    table.intake tr td { padding:0 !important;}
+    .small-print { font-size: .8em; color: #ddd !important; }
+    .ch-print-img {width: 45%;}
+}

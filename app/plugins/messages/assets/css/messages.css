@@ -1,0 +1,22 @@
+#send-box { position: absolute;left: 0; bottom:0; width: 100%;}
+#send-box .input-group { margin-bottom: 0px; }
+#message-box {  min-height: 300px; }
+#message-box, #message-users { background: #fff; overflow: auto; }
+#send-box .message-area { resize: none; width: 100%; padding: 10px; overflow:hidden; outline: none; padding-right: 80px; padding-left: 25px; border: 1px solid #ddd;}
+#send-box .message-area.form-error { border-color: #c13017; }
+.send-message { position: absolute; right: 10px; bottom: 10px; padding: 0; }
+.send-attachment {position: absolute; right: 60px; bottom: 10px; padding: 0 5px;}
+#send-box .message-info { position: absolute; left: 1px; top: 1px; padding: 0 7px; display: inline-block; background: #ddd; cursor: help;}
+#send-box a i { padding: 0 !important; } 
+#all-messages { border: 1px solid #ddd; padding: 10px; border-bottom: none; overflow: auto; position: relative; }
+.m-send span, .m-recieve span { display: inline-block; padding: 5px 10px; border-radius: 8px; margin-bottom: 2px; max-width: 80%; }
+.m-send span {  border-top-right-radius: 0px;}
+.m-recieve span { border-top-left-radius: 0px; }
+.message-date { font-size: 1.5em; padding-bottom: 10px;}
+.up-m-date { font-size: .8em; font-style: italic; }
+.up-m-date span { padding: 2px; }
+#messages-wrap .linkified { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#send-box .the-file { display: none; }
+#send-box #user_is_typing { position: absolute; left: 0; bottom: 100%; padding: 5px; border-top-right-radius: 8px; overflow: hidden; display: inline-block; z-index: 2; }
+#send-box #user_is_typing .user_is { position: relative; z-index: 2; }
+.message-group { padding-bottom: 30px; }

@@ -1,0 +1,98 @@
+.form-control-inline {
+    height: 31px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+.fuel-settings-page a.btn { margin-bottom: 2px; }
+.fuel-inventory .inl-elm { display: inline-block; padding: 5px; background: #fff; }
+.color-box { display: inline-block; width: 20px; height: 15px; vertical-align: middle;}
+.right { float: right; }
+.highcharts-container { max-width: 100%; width: 1200px; }
+.daterangepicker .ranges li.active{
+ clear: both;
+}
+.tank-title { color: #fff; }
+.color-input-box {border: none;text-align:center;cursor:pointer;}
+.click-box { cursor: pointer; }
+.thres-input {width:40px; padding: 2px; height: 25px;}
+.thresholds-box {font-weight: bold;height: 25px;display: inline-block; padding: 4px 0px 4px 4px;}
+.thres-inl { display: inline-block; }
+.featured_image img, .fuel-gallery-add { max-width: 100%; }
+.fuel-gallery .the-file small { display: none; }
+.fuel-dash-module { color: #fff; }
+.fuel-dash-module {}
+table td .input-group { margin: 0; }
+.remove-comp-img {font-size: 2em;position: absolute;top: 0;right: 11px;display: block;padding: 0;margin: 0;line-height: 0.8;}
+.remove-comp-img i { background: rgba(255,255,255,1); display: inline-block; padding: 0px 3px; }
+.fuel-tanks .tank-title, .fuel-company .data-title { padding: 10px; margin-bottom:10px; font-weight: bold; }
+.fuel-tanks .tank-data { padding:0px 10px;}
+
+
+/* Tanks*/
+.fl-tank-wrap { background: #fff; border: 1px solid #d1d1d1; position: relative;  }
+.fl-tank:after { content: ''; display: block;  }
+.fl-tank-box { display: flex; flex-wrap: wrap; width: 100%; }
+.fl-tank-box.nowrap { flex-wrap: nowrap; }
+.fl-tank-box .fl-col-2 {width: 49%; margin:.5%;}
+.fl-tank-box .fl-col-3 {width: 32.33%;; margin:.5%;}
+.fl-tank-box .fl-col-4 {width: 24%; margin:.5%;}
+.fl-tank-box .fl-col-5 {width: 19%; margin:.5%;}
+.data-info-img { padding-bottom: 10px; }
+
+.data-info { padding:0; }
+
+/* Dashboard */
+.fuel-widget-modules .col-xs-12 { padding-bottom: 15px; border-bottom: 1px solid #ddd; margin-bottom:18px; }
+
+@media screen and (max-width: 1517px) {
+    .fuel-inventory .inl-elm { width:31%; }
+}
+
+@media screen and (max-width: 1350px) {
+    .tank-data label, .tank-data span  { font-size:.8em}
+}
+
+@media screen and (max-width: 1200px) {
+    .fl-tank-box .fl-col-3 {width: 49%; margin:.5%;}
+    .fl-tank-box .fl-col-4 {width: 49%; margin:.5%;}
+}
+@media screen and (max-width: 1130px) {
+    .fuel-inventory .inl-elm { width: 47%; text-align: left; }    
+}
+
+@media screen and (max-width: 990px) {
+    .fl-tank-box .fl-col-2 {width: 99%; margin:.5%;}
+    .fl-tank-box .fl-col-3 {width: 99%; margin:.5%;}
+    .fl-tank-box .fl-col-4 {width: 99%; margin:.5%;}
+}
+
+@media screen and (max-width: 700px) {
+    
+}
+
+@media screen and (max-width: 610px) {
+    
+}
+
+@media screen and (max-width: 550px) {
+    
+    .fuel-inventory .inl-elm { width: 45%; text-align: left; }
+    #fuel .text-right { text-align: left; }
+    #fuel #reportrange,  #fuel select { display: block; margin-bottom: 5px; }
+}
+
+@media screen and (max-width: 500px) { 
+    .fuel-menu-buttons .col-xs-6 { margin-left:0; margin-right: 0; width: 100%;  }
+    .the-edit span { display: none; }
+}
+
+@media screen and (max-width: 450px) {
+    .fuel-inventory .inl-elm { width: 90%; text-align: left; }
+    
+}

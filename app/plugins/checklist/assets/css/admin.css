@@ -1,0 +1,31 @@
+.ui-sortable { list-style: none; margin: 0; padding: 0; }
+.terminalWrap { min-height: 33px; margin-bottom:10px; }
+.sortable-flex {width: 100%;display: flex;flex-wrap: wrap;}
+.sortable-flex li { width: 24.4%; margin-right: .5%; padding: 8px; }
+.small-ico { max-width: 30px !important; }
+a.add-item { display: block; cursor: pointer; margin-bottom: 5px; position:relative; }
+.pop-this .fa-window-close { display: none; cursor: pointer; }
+.ui-state-default {position:relative;}
+.sidebar-check #sortable .fa-hand-o-up { display: none; cursor: pointer; }
+.sidebar-check .fa-window-close {cursor: pointer; font-size: 2em;}
+.pop-this .ttr {position:absolute;right:0;padding: 0 5px;top:50%;size: 18px; z-index: 3; transform: translateY(-50%);}
+.sidebar-check .ttr {position:absolute;right:0;padding: 0 2px;top:0;size: 18px; z-index: 3;}
+.sidebar-check #sortable {list-style-type: none;margin: 0;padding: 0;width: 100%;display: flex;flex-wrap: wrap; min-height: 33px;}
+.sidebar-check #sortable li { margin: 0% .5% .5% 0; padding: 4px; width: 24.4%;  display:flex;flex-direction: column; }
+.sidebar-check #sortable li .handle { background:#fff; margin:-4px -4px 4px; padding:4px; border-bottom: 1px solid #eee; cursor: move;}
+.sidebar-check #sortable li input { margin-top:auto}
+.sidebar-check #sortable li .desc-txt {flex-grow: 1;display:block;padding-bottom:5px;padding-right: 30px;}
+.sidebar-check #sortable li .desc-txt:active {cursor: grabbing;}
+.sidebar-check #sortable li li { width:100%}
+.sidebar-check ul ul { margin-bottom: 0; }
+.add-feedback { margin-top:5px}
+.input-holder { position:relative; margin-bottom:2px;}
+.input-holder input { padding-right:30px}
+.remove-feedback { position:absolute; z-index:2; top:0; right:2px}
+.sidebar-check #sortable .image-ico { padding: 10% 10% 5%; }
+#all-lists .list-box { padding: 10px; margin-bottom: 1em; box-shadow: 0 0 6px rgba(0,0,0,0.3) }
+.checklist-wells { display: inline-block; min-width: 120px; padding: 5px; box-shadow: 0 0 6px rgba(0,0,0,0.3); border-radius: 5px; margin-bottom: .5%; margin-right:.3%; }
+.checklist-wells label {margin-bottom: 0;display: inline-block;vertical-align: bottom;}
+.listswrap { padding: 5px; border-radius: 3px; box-shadow: 0 0 5px rgba(0,0,0,0.3); }
+.checklist-div { border-top:1px solid #eeeeee; margin-top: 3px; }
+@page { size: A4 landscape !important; }
